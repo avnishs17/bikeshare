@@ -14,11 +14,11 @@ To run the program, open a command prompt or terminal and navigate to the direct
 
 The program will prompt you with the following questions:
 
-* "Would you like to see data for Chicago, New York, or Washington?"
-* "Would you like to filter the data by month, day, or not at all?"
-* (If the user chooses month) "Which month - January, February, March, April, May, or June?"
-* (If the user chooses day) "Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?"
-* The user's responses to these questions will determine the city and timeframe for analysis.
+- "Would you like to see data for Chicago, New York, or Washington?"
+- "Would you like to filter the data by month, day, or not at all?"
+- (If the user chooses month) "Which month - January, February, March, April, May, or June?"
+- (If the user chooses day) "Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?"
+- The user's responses to these questions will determine the city and timeframe for analysis.
 
 ## Data Analysis
 After the user has selected a city and time frame, the program will load the corresponding data and perform statistical analysis on it. The following information will be displayed:
