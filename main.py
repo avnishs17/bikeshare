@@ -171,12 +171,24 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+def display_data(df):
+    """
+    Asks the user whether they want to view 5 rows of data at a time
+    until they say no. Displays the data based on its position in the dataframe.
+    """
+    view_data = input('\nWould you like to view 5 rows of data? Enter yes or no: ').lower()
+    start_loc = 0
+    while view_data == 'yes':
+        print(df.iloc[start_loc:start_loc+5])
+        start_loc += 5
+        view_data = input('Do you want to see the next 5 rows of data? Enter yes or no: ').lower()
 
 def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
+        display_data(df)
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
