@@ -10,9 +10,9 @@ US Bike-share Data analysis
 This project is an analysis of bike share data for the cities of Chicago, New York, and Washington. The program prompts the user to select a city and specify a time frame for analysis. Statistical analysis is then performed on the data and results are presented to the user.
 
 ### Files used
-For New York - [https://citibikenyc.com/system-data]
-For Chicago -  [https://divvybikes.com/system-data]
-For Washington - [https://capitalbikeshare.com/system-data]
+1. For New York - [https://citibikenyc.com/system-data]
+2. For Chicago -  [https://divvybikes.com/system-data]
+3. For Washington - [https://capitalbikeshare.com/system-data]
 
 ### Dependencies
 This program requires Python 3.x and the following Python libraries:
